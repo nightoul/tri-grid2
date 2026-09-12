@@ -3,14 +3,10 @@ import { useTranslation } from 'react-i18next'
 import HexIcon from '../components/HexIcon.jsx'
 import divisions from '../data/divisions.js'
 import logoIcon from '../assets/logo-emblem.svg'
-import electricalTile from '../assets/images/Elektrotechnika_bg.jpg'
-import metalworkTile from '../assets/images/Kovovyroba_bg.jpg'
-import constructionTile from '../assets/images/Stavebnictvi_bg.jpg'
 import heroBg from '../assets/images/hero-bg.jpg'
 import whyUsImage from '../assets/images/why-us-handshake.jpg'
 import CircuitAnimation from '../components/CircuitAnimation.jsx'
 
-const tileImages = { elektrotechnika: electricalTile, kovovyroba: metalworkTile, stavebnictvi: constructionTile }
 
 function Homepage() {
   const { t } = useTranslation()
@@ -55,7 +51,6 @@ function Homepage() {
                 to={`/${lang}/divize/${d.id}`}
                 className={`division-card division-card--${d.accent}`}
                 key={d.id}
-                style={{ '--tile-image': `url(${tileImages[d.id]})` }}
               >
                 <HexIcon id={`card-${d.id}`} accent={d.accent} type={d.type} lowerOutlineOnly={d.type === 'roof'} alignBaseline />
                 <h3>{t(`divisionsData.${d.id}.label`)}</h3>
