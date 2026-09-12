@@ -1,0 +1,14 @@
+/* App.css je teď jen rozcestník — skutečné styly jsou rozdělené
+   v src/styles/. Pořadí importů musí zůstat přesně takhle, protože
+   pozdější pravidla ve CSS přebíjí ty dřívější (týká se to hlavně
+   modifikátorů jako .division-page-hero__overlay--blue). */
+
+@import './styles/tokens.css';
+@import './styles/base.css';
+@import './styles/header.css';
+@import './styles/hero.css';
+@import './styles/home-sections.css';
+@import './styles/division-pages.css';
+@import './styles/contact.css';
+@import './styles/footer.css';
+@import './styles/responsive.css';

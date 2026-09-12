@@ -1,0 +1,90 @@
+/* This file is auto-split from the original App.css — see src/App.css for the import order. */
+
+/* About */
+.about {
+  padding: 88px 0;
+}
+
+.about__inner {
+  max-width: 680px;
+}
+
+.about__more {
+  display: inline-block;
+  margin-top: 8px;
+  font-family: var(--font-mono);
+  font-weight: 600;
+  color: var(--navy-800);
+  text-decoration: none;
+}
+
+.about__more:hover {
+  color: var(--blue-400);
+}
+
+/* Stats strip */
+.stats-strip {
+  background: var(--navy-900, var(--navy-800));
+  padding: 20px 0;
+}
+
+.stats-strip__inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 140px;
+}
+
+.stat--logo {
+  justify-content: center;
+}
+
+.stat__logo {
+  height: 100px;
+  width: auto;
+  filter: brightness(1.4);
+}
+
+[data-theme='crimson'] .stat__logo {
+  filter: brightness(0) saturate(100%) invert(29%) sepia(91%) saturate(2835%) hue-rotate(345deg) brightness(99%) contrast(89%);
+}
+
+.stat__value {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--paper-50);
+}
+
+.stat__label {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: rgba(246, 245, 241, 0.7);
+}
+
+/* Why-us bullet list */
+.why-list {
+  list-style: none;
+  padding: 0;
+  margin: 24px 0 0;
+  display: grid;
+  gap: 14px;
+}
+
+.why-list li {
+  font-size: 0.95rem;
+  color: var(--ink-600);
+}
+
+.why-list strong {
+  font-family: var(--font-display);
+  color: var(--navy-800);
+}

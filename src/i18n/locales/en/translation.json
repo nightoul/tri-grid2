@@ -1,0 +1,261 @@
+{
+  "nav": {
+    "divisions": "Divisions",
+    "about": "About",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "footer": {
+    "divisions": "Electrical · Metalworking · Construction"
+  },
+  "common": {
+    "backToDivisions": "← Back",
+    "ctaContact": "Contact us →",
+    "divisionsEyebrow": "Division",
+    "whatWeDoEyebrow": "What we'll do for you",
+    "ourServicesEyebrow": "Our services",
+    "howWeWorkEyebrow": "How we work together",
+    "howWeWorkHeading": "Four steps from inquiry to handover",
+    "workSamplesEyebrow": "Work samples"
+  },
+  "home": {
+    "tileMore": "More",
+    "eyebrow": "Tri-Grid s.r.o. · Where trades meet",
+    "title": "Three trades. One partner.",
+    "lede": "Tri-Grid s.r.o. brings electrical, metalworking, and construction work together under one roof — from design to delivery.",
+    "stats": {
+      "founders": "founders with hands-on industry experience",
+      "contact": "point of contact for the whole project",
+      "orders": "completed jobs"
+    },
+    "why": {
+      "eyebrow": "Why Tri-Grid",
+      "heading": "Why work with us",
+      "intro": "We're a new company, but not new to the trade — the founders each bring years of hands-on experience. We joined forces so the client doesn't have to coordinate three different contractors alone.",
+      "list": [
+        {
+          "title": "Personal approach",
+          "desc": "we handle every project individually, working directly with someone from the team — not through a layer of salespeople."
+        },
+        {
+          "title": "Experience across trades",
+          "desc": "electrical, machinery, and construction are all covered by people with years of hands-on experience."
+        },
+        {
+          "title": "Coordination without gaps",
+          "desc": "our divisions communicate directly with each other, so nothing gets lost between trades."
+        },
+        {
+          "title": "Transparent quotes",
+          "desc": "clear pricing with no hidden items."
+        }
+      ]
+    },
+    "about": {
+      "eyebrow": "About us",
+      "text": "Tri-Grid is being founded by three colleagues who decided to bring their trades together under one name. Instead of chasing down three separate contractors for electrical, machinery, and construction, clients get a single point of contact and a coordinated team.",
+      "learnMore": "Learn more about us →"
+    },
+    "contact": {
+      "eyebrow": "Contact",
+      "heading": "Let's talk about your project",
+      "lede": "Tell us briefly what you need. We'll review your request and get back to you with the best next step.",
+      "emailLabel": "Email",
+      "areaLabel": "Service area",
+      "country": "Czech Republic",
+      "reassurance": "One point of contact for electrical, metalworking, and construction.",
+      "emailSubject": "New website inquiry",
+      "form": {
+        "heading": "No-obligation inquiry",
+        "name": "Full name",
+        "email": "Email",
+        "phone": "Phone (optional)",
+        "division": "Area of interest",
+        "divisionOptions": {
+          "general": "Multiple trades / not sure yet"
+        },
+        "message": "How can we help?",
+        "messagePlaceholder": "For example, the type of work, project location, and expected timeframe…",
+        "submit": "Prepare email →",
+        "note": "Submitting opens your email app with a prepared message."
+      }
+    }
+  },
+  "divisionsData": {
+    "elektrotechnika": {
+      "label": "Electrical",
+      "tagline": "Power, wiring, inspections",
+      "heroLede": "High- and low-voltage wiring, inspections, and smart systems — for apartments, houses, and commercial buildings, from design to handover.",
+      "overviewHeading": "Electrical work you can rely on",
+      "overviewText": "We handle complete electrical installations and inspections for apartments, houses, and commercial spaces — from initial design to a fully working system. We cover both high-voltage wiring and low-voltage systems (security, data wiring, smart home), so you only need one contractor for electrical work on site.",
+      "servicesHeading": "The three pillars of the Electrical division",
+      "services": [
+        {
+          "title": "Electrical installation for new builds and renovations",
+          "desc": "Complete wiring from shell construction to final connections — panels, socket circuits, and lighting."
+        },
+        {
+          "title": "Inspections and certified reviews",
+          "desc": "Regular and one-off inspections of electrical installations under current standards, with a clear report."
+        },
+        {
+          "title": "Design and installation of low-voltage systems",
+          "desc": "Security, camera systems, data wiring, and smart-home readiness."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Inquiry and consultation",
+          "desc": "We go over the scope of work and basic requirements — on site or remotely."
+        },
+        {
+          "title": "Design and quote",
+          "desc": "We prepare a technical design and a transparent price quote with no hidden items."
+        },
+        {
+          "title": "Installation",
+          "desc": "We carry out the installation on the agreed schedule and keep you informed along the way."
+        },
+        {
+          "title": "Inspection and handover",
+          "desc": "We check everything works, issue an inspection report, and hand over full documentation."
+        }
+      ],
+      "galleryHeading": "Electrical work in practice",
+      "galleryCaptions": [
+        "Panel installation and wiring",
+        "Wiring in a new build",
+        "Professional inspection and testing"
+      ],
+      "ctaQuestion": "Have an electrical project in mind?"
+    },
+    "kovovyroba": {
+      "label": "Metalworking",
+      "tagline": "Design, fabrication, installation",
+      "heroLede": "Design, fabrication, installation, and servicing of custom machinery and process equipment — from a single part to a complete line.",
+      "overviewHeading": "Metalworking that keeps pace with your operation",
+      "overviewText": "We design, build, and install custom machinery and process equipment — from individual parts to complete production lines. That includes regular servicing and maintenance, so you can rely on smooth operation long after handover, not just on delivery day.",
+      "servicesHeading": "The three pillars of the Metalworking division",
+      "services": [
+        {
+          "title": "Machine design and fabrication",
+          "desc": "Design and fabrication of custom machine parts and assemblies — from prototype to small-batch production."
+        },
+        {
+          "title": "Installation and servicing of process equipment",
+          "desc": "Installation, commissioning, and regular servicing of production and process lines."
+        },
+        {
+          "title": "Locksmith and welding work",
+          "desc": "Welding, machining, and locksmith work to drawings or on site as needed."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Inquiry and consultation",
+          "desc": "We go over the technical brief, drawings, or the equipment's intended purpose."
+        },
+        {
+          "title": "Design and quote",
+          "desc": "We prepare a design and a transparent price quote."
+        },
+        {
+          "title": "Fabrication and installation",
+          "desc": "We handle fabrication, machining, welding, and on-site installation."
+        },
+        {
+          "title": "Testing and handover",
+          "desc": "We test the equipment, train the operators, and hand over documentation."
+        }
+      ],
+      "galleryHeading": "Metalworking in practice",
+      "galleryCaptions": [
+        "Fabricating machine parts",
+        "Assembling a process line",
+        "Custom welding work"
+      ],
+      "ctaQuestion": "Have a metalworking project in mind?"
+    },
+    "stavebnictvi": {
+      "label": "Construction",
+      "tagline": "From foundation to finish",
+      "heroLede": "New builds, renovations, and finishing work with a focus on quality, schedule, and clear communication — from foundation to the keys in your hand.",
+      "overviewHeading": "From the foundation slab to the keys in your hand",
+      "overviewText": "We handle new builds and renovations — shell construction, masonry and finishing work, and site supervision. Thanks to the connection with our Machinery and Electrical divisions, we can coordinate even technically demanding projects without delays between trades.",
+      "servicesHeading": "The three pillars of the Construction division",
+      "services": [
+        {
+          "title": "New builds and renovations",
+          "desc": "Full construction from the foundation through the shell, including renovations of existing buildings."
+        },
+        {
+          "title": "Masonry and finishing work",
+          "desc": "Plastering, tiling, flooring, and other finishing work carried out with attention to detail."
+        },
+        {
+          "title": "Site supervision and project preparation",
+          "desc": "Quality and progress control, coordinating trades, and preparing project documentation."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Inquiry and consultation",
+          "desc": "We go over the scope of the build, your vision, and a rough budget."
+        },
+        {
+          "title": "Project and quote",
+          "desc": "We prepare or review the project documentation and price quote."
+        },
+        {
+          "title": "Construction",
+          "desc": "We carry out the construction work on schedule, with ongoing quality control."
+        },
+        {
+          "title": "Handover and documentation",
+          "desc": "We hand over the finished work along with full documentation and inspections."
+        }
+      ],
+      "galleryHeading": "Construction work in practice",
+      "galleryCaptions": [
+        "Shell construction",
+        "Masonry work",
+        "Finishing work"
+      ],
+      "ctaQuestion": "Have a construction project in mind?"
+    }
+  },
+  "aboutPage": {
+    "hero": {
+      "eyebrow": "About us",
+      "title": "Who we are",
+      "lede": "Tri-Grid brings three colleagues and three trades together under one name — from electrical through machinery to construction."
+    },
+    "story": {
+      "eyebrow": "How Tri-Grid came to be",
+      "heading": "Three trades, one shared problem",
+      "text": "Tri-Grid is being founded by three colleagues who each have long-standing experience in their own trade — electrical, machinery, and construction. Working on shared projects, they noticed the same problem again and again: coordinating between trades often takes more time and energy than the work itself. They decided to change that and bring their trades together under one name, so the client deals with one point of contact instead of three."
+    },
+    "why": {
+      "eyebrow": "Why Tri-Grid",
+      "heading": "What you can expect from us"
+    },
+    "values": [
+      {
+        "title": "One point of contact for three trades",
+        "desc": "No need to find an electrician, machinist, and builder separately — one phone call is enough."
+      },
+      {
+        "title": "Coordination without gaps",
+        "desc": "Our divisions communicate directly with each other, so nothing gets lost between trades."
+      },
+      {
+        "title": "Direct contact with the founders",
+        "desc": "On every project you deal directly with someone from the team, not through a layer of salespeople."
+      }
+    ],
+    "cta": {
+      "text": "Want to talk about your project?"
+    }
+  }
+}

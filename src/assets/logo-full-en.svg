@@ -1,0 +1,134 @@
+<svg viewBox="0 0 1790 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="logoTitle logoDescription">
+  <title id="logoTitle">Tri-Grid s.r.o.</title>
+  <desc id="logoDescription">Horizontal Tri-Grid logo with the divisions Electrical, Metalworking and Construction</desc>
+  <defs>
+    <linearGradient
+      id="triGridPngBlue"
+      gradientUnits="userSpaceOnUse"
+      x1="0"
+      y1="430"
+      x2="460"
+      y2="0"
+    >
+      <stop offset="0%" stop-color="#176B94" />
+      <stop offset="50%" stop-color="#2386B1" />
+      <stop offset="100%" stop-color="#39A3CC" />
+    </linearGradient>
+    <linearGradient id="wordmarkBlue" gradientUnits="userSpaceOnUse" x1="560" y1="0" x2="1775" y2="0">
+      <stop offset="0%" stop-color="#176B94" />
+      <stop offset="50%" stop-color="#2386B1" />
+      <stop offset="100%" stop-color="#39A3CC" />
+    </linearGradient>
+    <clipPath id="cutDarkGreenAtLeft">
+      <rect x="151" y="0" width="309" height="430" />
+    </clipPath>
+    <clipPath id="cutDarkBlueAboveBlue">
+      <polygon points="0,0 460,0 460,501.1 0,178.6" />
+    </clipPath>
+    <clipPath id="leftRoofVerticalInnerEnd">
+      <rect x="0" y="0" width="110.534041326151" height="430" />
+    </clipPath>
+    <clipPath id="leftRoofRightHalfBothVerticalEnds">
+      <rect x="109.534041326151" y="0" width="9.851342791041" height="430" />
+    </clipPath>
+    <clipPath id="rightRoofVerticalInnerEnd">
+      <rect x="349.465958673849" y="0" width="110.534041326151" height="430" />
+    </clipPath>
+    <clipPath id="rightRoofLeftHalfVerticalEnd">
+      <rect x="340.614615882808" y="0" width="9.851342791041" height="430" />
+    </clipPath>
+    <clipPath id="engineeringInsideRightField">
+      <polygon points="324,176 342,164 432,216 432,346 320,419 230,355.9 324,290" />
+    </clipPath>
+  </defs>
+
+  <g transform="translate(24 45)">
+  <g transform="translate(230 0) scale(1.15 1) translate(-230 0)">
+
+  <!-- Outline cog, partially covered by the middle field. -->
+  <g
+    data-symbol="engineering-cog"
+    fill="none"
+    stroke="url(#triGridPngBlue)"
+    stroke-width="8"
+    stroke-linejoin="miter"
+    clip-path="url(#engineeringInsideRightField)"
+  >
+    <g transform="translate(-2 -14)" stroke="url(#triGridPngBlue)">
+      <g transform="rotate(13 326 304)">
+        <path id="engineeringGearOutline" d="M318.0,258.7 L322.8,258.1 L326.0,236.0 L344.7,238.6 L341.7,260.8 L346.2,262.7 L352.4,266.3 L356.2,269.3 L374.1,255.9 L385.5,271.0 L367.7,284.6 L369.5,289.0 L371.3,296.0 L371.9,300.8 L394.0,304.0 L391.4,322.7 L369.2,319.7 L367.3,324.2 L363.7,330.4 L360.7,334.2 L374.1,352.1 L359.0,363.5 L345.4,345.7 L341.0,347.5 L334.0,349.3 L329.2,349.9 L326.0,372.0 L307.3,369.4 L310.3,347.2 L305.8,345.3 L299.6,341.7 L295.8,338.7 L277.9,352.1 L266.5,337.0 L284.3,323.4 L282.5,319.0 L280.7,312.0 L280.1,307.2 L258.0,304.0 L260.6,285.3 L282.8,288.3 L284.7,283.8 L288.3,277.6 L291.3,273.8 L277.9,255.9 L293.0,244.5 L306.6,262.3 L311.0,260.5 Z" />
+      </g>
+      <circle cx="326" cy="304" r="32" />
+    </g>
+  </g>
+
+  <g
+    fill="none"
+    stroke-width="18"
+    stroke-linecap="butt"
+    stroke-linejoin="miter"
+  >
+    <!-- Upper-middle field: clockwise from the top apex. -->
+    <path data-segment="UM-M-left-and-roof" d="M136 290 V76 L230 11 L324 76" stroke="url(#triGridPngBlue)" clip-path="url(#cutDarkBlueAboveBlue)" />
+    <path data-segment="UM-a" d="M230 11 L324 76 V88" stroke="url(#triGridPngBlue)" />
+    <polygon data-segment="UM-b" points="318,76 330,76 330,158.193449168 318,149.793449168" fill="url(#triGridPngBlue)" stroke="url(#triGridPngBlue)" stroke-width="6" />
+
+    <!-- Middle field: clockwise from its upper-left slope. -->
+    <path data-segment="M-a" d="M136 176 L230 110 L324 176" stroke="url(#triGridPngBlue)" clip-path="url(#cutDarkGreenAtLeft)" />
+    <path data-segment="M-b" d="M230 110 L324 176 V290" stroke="url(#triGridPngBlue)" />
+    <path data-segment="M-c" d="M324 176 V290 L230 355.9" stroke="url(#triGridPngBlue)" />
+    <path data-segment="M-d" d="M324 290 L230 355.9" stroke="url(#triGridPngBlue)" />
+    <path data-segment="M-chimney" d="M68 307.8 V281.4" stroke="url(#triGridPngBlue)" />
+    <path data-segment="M-roof-left" d="M28 335.4 L115 275.3 L125 282.3" stroke="url(#triGridPngBlue)" />
+    <polygon data-segment="M-e" points="118.4,270.4 218.636857450,340.590025793 208.236857450,347.990025793 111.6,280.2" fill="url(#triGridPngBlue)" stroke="url(#triGridPngBlue)" stroke-width="6" />
+
+    <!-- Lower-left field and its two-part roof. -->
+    <path data-segment="L-a-corner" d="M40 209.067 L28 216 V228" stroke="url(#triGridPngBlue)" />
+    <path data-segment="L-roof-left" d="M114.536539707023 166.001110391498 L28 216" stroke="url(#triGridPngBlue)" clip-path="url(#leftRoofVerticalInnerEnd)" />
+    <path data-segment="L-roof-right" d="M123.887882498064 176.606995466440 L105.531542945279 166.001110391498" stroke="url(#triGridPngBlue)" clip-path="url(#leftRoofRightHalfBothVerticalEnds)" />
+    <path data-segment="L-b" d="M28 216 V346 L140 419" stroke="url(#triGridPngBlue)" />
+    <path data-segment="L-c" d="M28 346 L140 419 L230 355.9" stroke="url(#triGridPngBlue)" />
+
+    <!-- Lower-right field and its two-part roof. -->
+    <path data-segment="R-a-corner" d="M420 209.067 L432 216 V228" stroke="url(#triGridPngBlue)" />
+    <path data-segment="R-roof-left" d="M336.112117501936 176.606995466440 L354.468457054721 166.001110391498" stroke="url(#triGridPngBlue)" clip-path="url(#rightRoofLeftHalfVerticalEnd)" />
+    <path data-segment="R-roof-right" d="M345.463460292977 166.001110391498 L432 216" stroke="url(#triGridPngBlue)" clip-path="url(#rightRoofVerticalInnerEnd)" />
+    <path data-segment="R-b" d="M432 216 V346 L320 419" stroke="url(#triGridPngBlue)" />
+    <path data-segment="R-c" d="M432 346 L320 419 L313.5 414.4" stroke="url(#triGridPngBlue)" />
+    <polygon data-segment="R-d" points="323.4,414.1 251.761465372,363.811427388 241.361465372,371.211427388 316.6,423.9" fill="url(#triGridPngBlue)" stroke="url(#triGridPngBlue)" stroke-width="6" />
+  </g>
+
+  <!-- Electrical symbol inside the middle field. -->
+  <polygon
+    data-symbol="flash"
+    points="239,156 196,246 220,243 206,310 264,220 238,223"
+    fill="url(#triGridPngBlue)"
+  />
+
+  </g>
+  </g>
+
+  <!-- Editable master with live text. Convert text to paths in a separate
+       print-production copy after the type and spacing are approved. -->
+  <g fill="url(#wordmarkBlue)" text-anchor="start" transform="translate(0 43)">
+    <text
+      x="560"
+      y="286"
+      font-family="Arial, Helvetica, sans-serif"
+      font-weight="700"
+      letter-spacing="12"
+      textLength="1200"
+      lengthAdjust="spacing"
+    ><tspan font-size="189">T</tspan><tspan dx="-30" font-size="180">ri-Grid</tspan><tspan font-size="150"> s.r.o.</tspan></text>
+    <text
+      x="575"
+      y="374"
+      font-family="Arial Narrow, Roboto Condensed, Arial, sans-serif"
+      font-size="65"
+      font-weight="500"
+      letter-spacing="7.5"
+      textLength="1200"
+      lengthAdjust="spacing"
+    >ELECTRICAL • METALWORKING • CONSTRUCTION</text>
+  </g>
+</svg>

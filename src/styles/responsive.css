@@ -1,0 +1,353 @@
+/* This file is auto-split from the original App.css — see src/App.css for the import order. */
+
+/* Responsive */
+@media (max-width: 900px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  .division-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .division-detail__inner,
+  .division-detail.is-reversed .division-detail__inner {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .division-detail__visual {
+    order: 0 !important;
+  }
+
+  .division-detail__visual .hex-icon {
+    width: 72px;
+    height: 72px;
+  }
+
+  .contact__inner {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .contact__intro h2 {
+    max-width: 18ch;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero__inner > .eyebrow {
+    display: none;
+  }
+
+  .why-heading {
+    white-space: normal;
+    max-width: 16ch;
+  }
+
+  .stats-strip__inner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .stat {
+    min-width: 0;
+  }
+
+  .site-header__inner {
+    justify-content: space-between;
+    min-height: 82px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+
+  .logo-mark {
+    width: min(220px, calc(100% - 60px));
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+
+  .mobile-nav {
+    max-height: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: max-height 0.25s ease;
+  }
+
+  .is-menu-open .mobile-nav {
+    max-height: 460px;
+  }
+
+  .mobile-nav a {
+    text-decoration: none;
+    font-family: var(--font-mono);
+    font-size: 0.95rem;
+    color: rgba(246, 245, 241, 0.85);
+    padding: 14px 24px;
+    border-top: 1px solid rgba(246, 245, 241, 0.12);
+  }
+
+  .mobile-nav a:active,
+  .mobile-nav a:hover {
+    color: var(--paper-50);
+  }
+
+  .hero {
+    padding: 133px 0 44px;
+  }
+
+  .division-page-hero {
+    padding: 122px 0 40px;
+  }
+
+  .division-page-hero--brick {
+    padding-bottom: 32px;
+  }
+
+  .division-page-hero--brick .hero__lede {
+    font-size: 0.9rem;
+    line-height: 1.42;
+  }
+
+  .division-page-back {
+    margin-bottom: 18px;
+  }
+
+  .division-page-hero__inner::before {
+    height: calc(1.23rem + 18px);
+  }
+
+  .division-page-hero__head {
+    margin-bottom: 10px;
+  }
+
+  .division-overview:not(.division-overview--tight) {
+    padding-top: 28px;
+  }
+
+  .hero h1 {
+    margin-bottom: 14px;
+  }
+
+  .division-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px;
+    margin-top: 28px;
+  }
+
+  .division-page-hero__head {
+    gap: 16px;
+  }
+
+  .division-page-hero__head .hex-icon {
+    width: 56px;
+    height: 56px;
+  }
+
+  .hero__lede {
+    font-size: 0.98rem;
+  }
+
+  .division-card {
+    min-height: 250px;
+    padding: 24px 18px;
+  }
+
+  .division-card .hex-icon {
+    width: 52px;
+    height: 52px;
+  }
+
+  .division-card h3 {
+    font-size: calc(1.125rem - 3px);
+  }
+
+  .about,
+  .division-detail,
+  .contact {
+    padding: 56px 0;
+  }
+
+  .contact__details,
+  .contact-form__row {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-form {
+    padding: 24px 20px;
+  }
+
+  .site-footer__inner {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    padding: 0 16px;
+  }
+
+  .hero h1 {
+    font-size: 1.9rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .division-card {
+    transition: none;
+  }
+
+  .circuit-animation__spark {
+    display: none;
+  }
+}
+
+/* XL monitors */
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1320px;
+  }
+
+  .hero {
+    padding: 169px 0 84px;
+  }
+
+  .hero h1 {
+    font-size: clamp(3rem, 3.2vw, 4rem);
+    max-width: 28ch;
+  }
+
+  .hero__lede {
+    font-size: 1.15rem;
+    max-width: 58ch;
+  }
+
+  .division-grid {
+    gap: 28px;
+    margin-top: 64px;
+  }
+
+  .division-card {
+    padding: 22px 28px;
+  }
+
+  .about,
+  .division-detail,
+  .contact {
+    padding: 112px 0;
+  }
+
+  .about__inner {
+    max-width: 760px;
+  }
+
+  .division-detail__inner {
+    grid-template-columns: 220px 1fr;
+    gap: 64px;
+  }
+
+  .division-detail.is-reversed .division-detail__inner {
+    grid-template-columns: 1fr 220px;
+  }
+
+  .division-detail__visual .hex-icon {
+    width: 160px;
+    height: 160px;
+  }
+
+  .division-detail__text h2 {
+    font-size: 1.7rem;
+  }
+}
+
+@media (min-width: 1800px) {
+  .container {
+    max-width: 1440px;
+  }
+
+  .hero h1 {
+    font-size: 4.8rem;
+  }
+}
+
+/* Three portrait tiles sit side by side on phones. */
+@media (max-width: 600px) {
+  .hero__title-line {
+    display: block;
+    white-space: nowrap;
+  }
+
+  .hero__bg {
+    background-position: center -40px;
+  }
+
+  .container {
+    padding-inline: 10px;
+  }
+
+  .division-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px;
+  }
+
+  .division-card {
+    min-height: 194px;
+    padding: 5px 10px 20px;
+    border-radius: 5px;
+  }
+
+  .division-card .hex-icon {
+    width: 40px;
+    height: 40px;
+    align-self: center;
+    margin: 0;
+  }
+
+  .division-card h3 {
+    font-size: calc(clamp(0.875rem, 2.8vw, 1rem) - 6px);
+    line-height: 1.3;
+    margin: 11px 0 12px;
+  }
+
+  .division-card p {
+    font-size: 0.875rem;
+    line-height: 1.4;
+    overflow-wrap: anywhere;
+    margin-bottom: 12px;
+  }
+
+  .division-card__link {
+    font-size: 0.875rem;
+    gap: 6px;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    padding-inline: 8px;
+  }
+
+  .division-card {
+    padding-inline: 5px;
+  }
+
+  .division-card h3 {
+    font-size: calc(clamp(0.875rem, 2.8vw, 1rem) - 1px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .division-card::before,
+  .division-card__arrow {
+    transition: none;
+  }
+}

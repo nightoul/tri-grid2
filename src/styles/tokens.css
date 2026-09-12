@@ -1,0 +1,96 @@
+/* This file is auto-split from the original App.css — see src/App.css for the import order. */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+:root {
+  --navy-950: #071426;
+  --navy-900: #0c2039;
+  --navy-800: #0f2a4a;
+  --blue-400: #4fa8e8;
+  --steel-500: #6b7a8f;
+  --brick-500: #a85832;
+  --construction-highlight: var(--brick-500);
+  --paper-50: #f6f5f1;
+  --header-bg: #e3e9ef;
+  --paper-100: #eeece5;
+  --ink-900: #10151c;
+  --ink-600: #45505c;
+  --grid-line: rgba(15, 42, 74, 0.06);
+  --grid-line-dark: rgba(234, 242, 245, 0.07);
+  --hero-image-filter: grayscale(0.14) contrast(1) brightness(1.1) saturate(1.04);
+  --hero-overlay-start: rgba(7, 27, 50, 0.48);
+  --hero-overlay-end: rgba(16, 50, 82, 0.6);
+  --texture-light:
+    repeating-linear-gradient(115deg, rgba(15, 42, 74, 0.035) 0px, rgba(15, 42, 74, 0.035) 1px, transparent 1px, transparent 4px),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.05'/%3E%3C/svg%3E");
+
+  --font-display: 'Montserrat', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+:root[data-theme='sunrise'] {
+  --navy-950: #124e68;
+  --navy-900: #17657f;
+  --navy-800: #1f7690;
+  --blue-400: #26c0d5;
+  --steel-500: #8274d6;
+  --brick-500: #f27652;
+  --paper-50: #fffaf0;
+  --header-bg: #dff6f5;
+  --paper-100: #fff0d2;
+  --ink-900: #17364a;
+  --ink-600: #526d7c;
+  --grid-line: rgba(38, 143, 165, 0.08);
+  --grid-line-dark: rgba(221, 249, 250, 0.12);
+  --hero-image-filter: grayscale(0) contrast(0.96) brightness(1.18) saturate(1.18);
+  --hero-overlay-start: rgba(9, 71, 91, 0.32);
+  --hero-overlay-end: rgba(20, 105, 122, 0.48);
+  --texture-light:
+    repeating-linear-gradient(115deg, rgba(242, 118, 82, 0.025) 0px, rgba(242, 118, 82, 0.025) 1px, transparent 1px, transparent 4px),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+}
+
+:root[data-theme='sunrise2'] {
+  --navy-950: #103b49;
+  --navy-900: #174d5a;
+  --navy-800: #173b44;
+  --blue-400: #ffb84d;
+  --steel-500: #94bbb6;
+  --brick-500: #ed7655;
+  --paper-50: #fffaf2;
+  --header-bg: #e5f0eb;
+  --paper-100: #f3eadb;
+  --ink-900: #1d3538;
+  --ink-600: #586c6c;
+  --grid-line: rgba(16, 59, 73, 0.065);
+  --grid-line-dark: rgba(255, 221, 153, 0.1);
+  --hero-image-filter: grayscale(0.04) contrast(1.02) brightness(1.06) saturate(1.04);
+  --hero-overlay-start: rgba(9, 43, 53, 0.48);
+  --hero-overlay-end: rgba(19, 68, 77, 0.62);
+  --texture-light:
+    repeating-linear-gradient(115deg, rgba(16, 59, 73, 0.028) 0px, rgba(16, 59, 73, 0.028) 1px, transparent 1px, transparent 4px),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.82' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.032'/%3E%3C/svg%3E");
+}
+
+:root[data-theme='crimson'] {
+  --navy-950: #090909;
+  --navy-900: #151515;
+  --navy-800: #242021;
+  --blue-400: #ef3b3a;
+  --steel-500: #b9bec2;
+  --brick-500: #ff6b35;
+  --paper-50: #f6f3f0;
+  --header-bg: #e8e2df;
+  --paper-100: #e9e3df;
+  --ink-900: #1d191a;
+  --ink-600: #5e5557;
+  --grid-line: rgba(120, 16, 19, 0.07);
+  --grid-line-dark: rgba(239, 59, 58, 0.12);
+  --hero-image-filter: grayscale(0.42) contrast(1.14) brightness(0.94) saturate(0.72);
+  --hero-overlay-start: rgba(6, 6, 6, 0.5);
+  --hero-overlay-end: rgba(76, 9, 12, 0.62);
+  --texture-light:
+    repeating-linear-gradient(115deg, rgba(120, 16, 19, 0.03) 0px, rgba(120, 16, 19, 0.03) 1px, transparent 1px, transparent 4px),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+}

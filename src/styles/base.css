@@ -1,0 +1,62 @@
+/* This file is auto-split from the original App.css — see src/App.css for the import order. */
+
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background: var(--texture-light), var(--paper-50);
+  color: var(--ink-900);
+  font-family: var(--font-body);
+  line-height: 1.5;
+  text-align: left;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  margin: 0 0 0.5em;
+  line-height: 1.15;
+  color: var(--navy-800);
+}
+
+p {
+  margin: 0 0 1em;
+  color: var(--ink-600);
+}
+
+a {
+  color: inherit;
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--blue-400);
+  margin-bottom: 0.75em;
+}

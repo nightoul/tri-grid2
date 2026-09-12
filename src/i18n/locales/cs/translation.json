@@ -1,0 +1,261 @@
+{
+  "nav": {
+    "divisions": "Divize",
+    "about": "O nás",
+    "contact": "Kontakt",
+    "openMenu": "Otevřít menu",
+    "closeMenu": "Zavřít menu"
+  },
+  "footer": {
+    "divisions": "Elektrotechnika · Kovovýroba · Stavebnictví"
+  },
+  "common": {
+    "backToDivisions": "← Zpět",
+    "ctaContact": "Kontaktujte nás →",
+    "divisionsEyebrow": "Divize",
+    "whatWeDoEyebrow": "Co pro vás uděláme",
+    "ourServicesEyebrow": "Naše služby",
+    "howWeWorkEyebrow": "Jak probíhá spolupráce",
+    "howWeWorkHeading": "Čtyři kroky od poptávky k předání",
+    "workSamplesEyebrow": "Ukázky prací"
+  },
+  "home": {
+    "tileMore": "Více",
+    "eyebrow": "Tri-Grid s.r.o. · Když se řemesla potkají",
+    "title": "Tři obory. Jeden partner.",
+    "lede": "Tri-Grid s.r.o. spojuje elektrotechniku, kovovýrobu a stavebnictví pod jednu střechu — od návrhu po realizaci.",
+    "stats": {
+      "founders": "zakladatelé s praxí v oboru",
+      "contact": "kontakt pro celý projekt",
+      "orders": "zakázek"
+    },
+    "why": {
+      "eyebrow": "Proč Tri-Grid",
+      "heading": "Proč spolupracovat s námi",
+      "intro": "Jsme nová firma, ale ne noví v oboru — zakladatelé mají za sebou roky praxe každý ve svém řemesle. Spojili jsme se, aby klient nemusel koordinovat tři různé dodavatele sám.",
+      "list": [
+        {
+          "title": "Osobní přístup",
+          "desc": "každou zakázku řešíme individuálně, přímo s někým z týmu, ne přes vrstvu obchodníků."
+        },
+        {
+          "title": "Zkušenost napříč obory",
+          "desc": "elektro, stroje i stavby máme pokryté lidmi s dlouholetou praxí."
+        },
+        {
+          "title": "Koordinace bez ztrát",
+          "desc": "divize spolu komunikují napřímo, takže se nic neztratí mezi řemesly."
+        },
+        {
+          "title": "Transparentní nabídky",
+          "desc": "jasné nacenění bez skrytých položek."
+        }
+      ]
+    },
+    "about": {
+      "eyebrow": "O nás",
+      "text": "Tri-Grid zakládají tři kolegové, kteří se rozhodli spojit své obory pod jednu značku. Místo shánění tří různých dodavatelů na elektřinu, stroje a stavbu dostane klient jeden kontakt a koordinovaný tým.",
+      "learnMore": "Zjistit více o nás →"
+    },
+    "contact": {
+      "eyebrow": "Kontakt",
+      "heading": "Pojďme probrat váš projekt",
+      "lede": "Popište nám stručně, co potřebujete. Podíváme se na zadání a ozveme se vám s návrhem dalšího postupu.",
+      "emailLabel": "E-mail",
+      "areaLabel": "Působnost",
+      "country": "Česká republika",
+      "reassurance": "Jeden kontakt pro elektrotechniku, kovovýrobu i stavebnictví.",
+      "emailSubject": "Nová poptávka z webu",
+      "form": {
+        "heading": "Nezávazná poptávka",
+        "name": "Jméno a příjmení",
+        "email": "E-mail",
+        "phone": "Telefon (nepovinné)",
+        "division": "Oblast poptávky",
+        "divisionOptions": {
+          "general": "Více oborů / nejsem si jistý"
+        },
+        "message": "S čím vám můžeme pomoci?",
+        "messagePlaceholder": "Například typ zakázky, místo realizace a předpokládaný termín…",
+        "submit": "Připravit e-mail →",
+        "note": "Po odeslání se otevře váš e-mailový program s připravenou zprávou."
+      }
+    }
+  },
+  "divisionsData": {
+    "elektrotechnika": {
+      "label": "Elektrotechnika",
+      "tagline": "Proud, rozvody, revize",
+      "heroLede": "Silnoproudé i slaboproudé rozvody, revize a chytré systémy — pro byty, rodinné domy i komerční objekty, od návrhu po předání.",
+      "overviewHeading": "Elektřina, na kterou se dá spolehnout",
+      "overviewText": "Zajišťujeme kompletní elektroinstalace a revize pro byty, rodinné domy i komerční prostory — od prvního návrhu až po předání funkčního systému. Pracujeme jak se silnoproudými rozvody, tak se slaboproudými systémy (zabezpečení, datové rozvody, chytrá domácnost), takže na stavbě řešíte elektřinu jen s jedním dodavatelem.",
+      "servicesHeading": "Tři pilíře divize Elektrotechnika",
+      "services": [
+        {
+          "title": "Elektroinstalace novostaveb a rekonstrukcí",
+          "desc": "Kompletní rozvody od hrubé stavby po finální zapojení — rozvaděče, zásuvkové okruhy i osvětlení."
+        },
+        {
+          "title": "Revize a odborné prohlídky",
+          "desc": "Pravidelné i jednorázové revize elektrických instalací podle platných norem, s jasným protokolem."
+        },
+        {
+          "title": "Návrh a realizace slaboproudých systémů",
+          "desc": "Zabezpečení, kamerové systémy, datové rozvody a příprava na chytrou domácnost."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Poptávka a konzultace",
+          "desc": "Probereme rozsah prací a základní požadavky — osobně na místě nebo na dálku."
+        },
+        {
+          "title": "Návrh a nacenění",
+          "desc": "Připravíme technický návrh a transparentní cenovou nabídku bez skrytých položek."
+        },
+        {
+          "title": "Realizace",
+          "desc": "Provedeme instalaci podle domluveného harmonogramu a průběžně vás informujeme."
+        },
+        {
+          "title": "Revize a předání",
+          "desc": "Zkontrolujeme funkčnost, vystavíme revizní zprávu a předáme kompletní dokumentaci."
+        }
+      ],
+      "galleryHeading": "Elektroinstalace v praxi",
+      "galleryCaptions": [
+        "Instalace a zapojení rozvaděče",
+        "Rozvody v novostavbě",
+        "Odborná revize a měření"
+      ],
+      "ctaQuestion": "Máte poptávku v oboru elektrotechnika?"
+    },
+    "kovovyroba": {
+      "label": "Kovovýroba",
+      "tagline": "Konstrukce, výroba, montáž",
+      "heroLede": "Konstrukce, výroba, montáž a servis strojních a technologických celků na míru — od jednotlivého dílu po kompletní linku.",
+      "overviewHeading": "Kovovýroba, která drží krok s provozem",
+      "overviewText": "Navrhujeme, vyrábíme a montujeme strojní a technologické celky na míru — od jednotlivých dílů po kompletní výrobní linky. Součástí je i běžný servis a údržba, takže se na fungující provoz můžete spolehnout dlouhodobě, ne jen v den předání.",
+      "servicesHeading": "Tři pilíře divize Kovovýroba",
+      "services": [
+        {
+          "title": "Strojírenská konstrukce a výroba",
+          "desc": "Návrh a výroba strojních dílů a sestav na míru — od prototypu po malosériovou výrobu."
+        },
+        {
+          "title": "Montáž a servis technologických celků",
+          "desc": "Instalace, uvedení do provozu a pravidelný servis výrobních a technologických linek."
+        },
+        {
+          "title": "Zámečnické a svářečské práce",
+          "desc": "Svařování, obrábění a zámečnické práce podle výkresové dokumentace i přímo na místě."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Poptávka a konzultace",
+          "desc": "Probereme technické zadání, výkresy nebo požadovaný účel zařízení."
+        },
+        {
+          "title": "Návrh a nacenění",
+          "desc": "Připravíme konstrukční návrh a transparentní cenovou nabídku."
+        },
+        {
+          "title": "Výroba a montáž",
+          "desc": "Zajistíme výrobu, obrábění, svařování a instalaci přímo na místě."
+        },
+        {
+          "title": "Zkoušky a předání",
+          "desc": "Otestujeme funkčnost celku, zaškolíme obsluhu a předáme dokumentaci."
+        }
+      ],
+      "galleryHeading": "Kovovýroba v praxi",
+      "galleryCaptions": [
+        "Výroba strojních dílů",
+        "Montáž technologického celku",
+        "Svářečské práce na míru"
+      ],
+      "ctaQuestion": "Máte poptávku v oboru kovovýroby?"
+    },
+    "stavebnictvi": {
+      "label": "Stavebnictví",
+      "tagline": "Od základů po dokončení",
+      "heroLede": "Novostavby, rekonstrukce a dokončovací práce s důrazem na kvalitu, harmonogram a jasnou komunikaci od základů po předání klíčů.",
+      "overviewHeading": "Od základové desky po předání klíčů",
+      "overviewText": "Realizujeme novostavby i rekonstrukce — hrubou stavbu, zednické a dokončovací práce i stavební dozor. Díky propojení s divizemi kovovýroby a elektrotechniky zvládneme koordinovat i technicky náročnější zakázky bez zbytečných prodlev mezi řemesly.",
+      "servicesHeading": "Tři pilíře divize Stavebnictví",
+      "services": [
+        {
+          "title": "Novostavby a rekonstrukce",
+          "desc": "Kompletní realizace staveb od základů po hrubou stavbu, včetně rekonstrukcí stávajících objektů."
+        },
+        {
+          "title": "Zednické a dokončovací práce",
+          "desc": "Omítky, obklady, podlahy a další dokončovací práce provedené s důrazem na detail."
+        },
+        {
+          "title": "Stavební dozor a příprava projektů",
+          "desc": "Kontrola kvality a postupu prací, koordinace řemesel a příprava projektové dokumentace."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Poptávka a konzultace",
+          "desc": "Probereme rozsah stavby, představy a orientační rozpočet."
+        },
+        {
+          "title": "Projekt a nacenění",
+          "desc": "Připravíme nebo zkontrolujeme projektovou dokumentaci a cenovou nabídku."
+        },
+        {
+          "title": "Realizace",
+          "desc": "Provedeme stavební práce podle harmonogramu, s průběžnou kontrolou kvality."
+        },
+        {
+          "title": "Předání a dokumentace",
+          "desc": "Předáme dokončené dílo včetně veškeré dokumentace a revizí."
+        }
+      ],
+      "galleryHeading": "Stavebnictví v praxi",
+      "galleryCaptions": [
+        "Hrubá stavba",
+        "Zednické práce",
+        "Dokončovací práce"
+      ],
+      "ctaQuestion": "Máte poptávku v oboru stavebnictví?"
+    }
+  },
+  "aboutPage": {
+    "hero": {
+      "eyebrow": "O nás",
+      "title": "Kdo jsme",
+      "lede": "Tri-Grid spojuje tři kolegy a tři řemesla pod jednou značkou — od elektřiny přes stroje až po stavby."
+    },
+    "story": {
+      "eyebrow": "Jak Tri-Grid vznikl",
+      "heading": "Tři obory, jeden společný problém",
+      "text": "Tri-Grid zakládají tři kolegové, kteří se dlouhodobě pohybují každý ve svém oboru — elektrotechnice, kovovýrobě a stavebnictví. Na společných zakázkách si všimli stejného problému: koordinace mezi řemeslníky často zabere víc času a energie než práce samotná. Rozhodli se to změnit a spojit své obory pod jednu značku, aby klient řešil jeden kontakt místo tří."
+    },
+    "why": {
+      "eyebrow": "Proč Tri-Grid",
+      "heading": "Co od nás můžete čekat"
+    },
+    "values": [
+      {
+        "title": "Jeden kontakt pro tři obory",
+        "desc": "Nemusíte shánět zvlášť elektrikáře, strojaře a stavaře — stačí jeden telefon."
+      },
+      {
+        "title": "Koordinace bez ztrát",
+        "desc": "Divize spolu komunikují napřímo, takže se nic neztratí mezi řemesly."
+      },
+      {
+        "title": "Přímý kontakt se zakladateli",
+        "desc": "Na každé zakázce jednáte přímo s někým z týmu, ne přes vrstvu obchodníků."
+      }
+    ],
+    "cta": {
+      "text": "Chcete probrat svůj projekt?"
+    }
+  }
+}
