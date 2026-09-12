@@ -154,28 +154,64 @@
   transition: transform 0.25s ease, border-color 0.25s ease;
 }
 
-/* Opaque, image-free surfaces tinted to each division. */
+/* Layered industrial surfaces: colored light over etched technical geometry. */
+.division-card {
+  --surface-angle: 125deg;
+  box-shadow: 0 14px 30px -18px #000b, inset 0 1px 0 #ffffff0a;
+}
+
+.division-card--blue { --surface-angle: 90deg; }
+.division-card--steel { --surface-angle: 135deg; }
+.division-card--brick { --surface-angle: 0deg; }
+
 .division-card::before {
   content: '';
   position: absolute;
   inset: 0;
+  z-index: -2;
+  background:
+    radial-gradient(ellipse at 100% 0%, color-mix(in srgb, var(--card-accent) 35%, transparent), transparent 66%),
+    radial-gradient(ellipse at 0% 100%, #020912b3, transparent 75%),
+    linear-gradient(125deg, #182a3b, #101f2d 48%, #142838);
+  transition: filter 0.3s ease;
+}
+
+.division-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
   z-index: -1;
-  background: linear-gradient(
-    145deg,
-    color-mix(in srgb, var(--card-accent) 24%, #102131) 0%,
-    #102131 55%,
-    #071421 100%
-  );
-  transition: transform 0.4s ease;
+  pointer-events: none;
+  background:
+    linear-gradient(135deg, transparent 45%, color-mix(in srgb, var(--card-accent) 22%, transparent) 45.2%, transparent 45.8%),
+    linear-gradient(135deg, transparent 64%, #ffffff0c 64.2%, transparent 64.7%),
+    repeating-linear-gradient(var(--surface-angle), transparent 0 27px, #ffffff12 27px 28px, transparent 28px 56px),
+    repeating-linear-gradient(calc(var(--surface-angle) + 90deg), transparent 0 55px, #ffffff0a 55px 56px);
+  -webkit-mask-image: linear-gradient(110deg, transparent 12%, #0004 48%, #000 100%);
+  mask-image: linear-gradient(110deg, transparent 12%, #0004 48%, #000 100%);
+  opacity: 0.65;
+  transition: opacity 0.3s ease;
 }
 
 .division-card:hover {
   transform: translateY(-4px);
   border-color: var(--card-hover-color, var(--card-accent));
+  box-shadow: 0 20px 36px -20px #000d;
 }
 
 .division-card:hover::before {
-  transform: scale(1.04);
+  filter: brightness(1.12);
+}
+
+.division-card:hover::after {
+  opacity: 0.95;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .division-card::before,
+  .division-card::after {
+    transition: none;
+  }
 }
 
 .division-card:focus-visible {
