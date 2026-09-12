@@ -15,7 +15,7 @@
   z-index: 0;
   background-size: cover;
   background-position: center calc(50% + 380px);
-  filter: var(--hero-image-filter);
+  filter: none;
   opacity: 1;
   transition: filter 0.3s ease;
 }
@@ -24,9 +24,7 @@
   position: absolute;
   inset: 0;
   z-index: 1;
-  background:
-    linear-gradient(180deg, rgba(3, 12, 24, 0.55), transparent 160px),
-    linear-gradient(180deg, var(--hero-overlay-start) 0%, var(--hero-overlay-end) 100%);
+  background: none;
   transition: background 0.3s ease;
 }
 
